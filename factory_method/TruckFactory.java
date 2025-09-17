@@ -1,5 +1,7 @@
 public class TruckFactory extends TransportFactory {
-    Transport createTransport() {
+    
+    @Override
+    public Transport createTransport() {
         return new Truck();
     }
 }
