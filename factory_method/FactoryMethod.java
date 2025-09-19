@@ -9,5 +9,9 @@ public class FactoryMethod {
         TransportFactory ship_factory = new ShipFactory();
         Transport ship_transport2 = ship_factory.createTransport();
         ship_transport2.deliver();
+
+
     }
 }
+
+
